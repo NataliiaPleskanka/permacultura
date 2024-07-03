@@ -8,7 +8,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: #f5f789;
   color: #212121;
   line-height: 1.5;
 }
@@ -22,5 +22,32 @@ a {
   color: #212121;
 }
 .hover:hover {
-  color: deepskyblue;
+  color: darkslateblue;
+  /* color: deeppink; */
+}
+.mail-first {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.blocks {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  flex-basis: calc((100% - 24px) / 3);
+}
+.sub-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  width: 700px;
+  text-align: center;
+}
+.container-sub-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  text-align: center;
 }
