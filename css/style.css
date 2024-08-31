@@ -26,6 +26,11 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  background-color: rgba(210, 210, 45, 0.844);
+  background: linear-gradient(270deg,
+  yellow 32.68%,
+  #5579d4 78.73%,
+  #3a6dec 100%);
 }
 
 ul {
