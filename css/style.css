@@ -387,8 +387,9 @@ footer {
 
 }
 .underlining{
+  color: darkred;
 
 }
 .appointment{
-color: red;
+color: darkred;
 }
