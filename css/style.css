@@ -489,3 +489,10 @@ footer {
 .appointment {
   color: darkred;
 }
+.image-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  /* gap: 30px; */
+}
