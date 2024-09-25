@@ -26,11 +26,13 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  background-color: rgba(210, 210, 45, 0.844);
-  background: linear-gradient(270deg,
-  yellow 32.68%,
-  #5579d4 78.73%,
-  #3a6dec 100%);
+  background-color: rgb(240, 240, 100);
+  background: linear-gradient(
+    270deg,
+    rgb(233, 233, 79) 32.68%,
+    #7691d4 78.73%,
+    #4e7beb 100%
+  );
 }
 
 ul {
@@ -98,8 +100,9 @@ a {
 .hover:hover {
   color: white;
   display: inline-block;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, text-decoration 0.3s ease;
-  
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    text-decoration 0.3s ease;
+
   color: #212121;
   transform: scale(1.1); /* Збільшення при наведенні */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тінь при наведенні */
@@ -242,11 +245,13 @@ li {
 footer {
   padding: 10px 16px;
   width: 100%;
-  background-color: rgba(210, 210, 45, 0.844);
-  background: linear-gradient(270deg,
-  yellow 32.68%,
-  #5579d4 78.73%,
-  #3a6dec 100%);
+  background-color: rgb(240, 240, 100);
+  background: linear-gradient(
+    270deg,
+    rgb(233, 233, 79) 32.68%,
+    #7691d4 78.73%,
+    #4e7beb 100%
+  );
   position: sticky;
   bottom: 0;
   z-index: 2;
@@ -296,11 +301,12 @@ footer {
   position: relative;
   padding-top: 100px;
   padding-bottom: 32px;
-  background-image: linear-gradient(
+
+  background: linear-gradient(
     270deg,
-    yellow 32.68%,
-    #5579d4 78.73%,
-    #3a6dec 100%
+    rgb(233, 233, 79) 32.68%,
+    #7691d4 78.73%,
+    #4e7beb 100%
   );
   z-index: 1;
 }
@@ -383,13 +389,11 @@ footer {
   border: 1px solid rgba(255, 255, 255, 1);
   box-shadow: 0px 4px 4px rgba(27, 60, 152, 0.25);
 }
-.quot{
-
+.quot {
 }
-.underlining{
+.underlining {
   color: darkred;
-
 }
-.appointment{
-color: darkred;
+.appointment {
+  color: darkred;
 }
