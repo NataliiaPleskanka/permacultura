@@ -190,6 +190,18 @@ a {
 }
 
 .mail-first {
+  min-width: 320px;
+}
+@media (min-width: 768px) {
+  .mail-first {
+    min-width: 768px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .mail-first {
+    min-width: 1158px;
+  }
 }
 
 .blocks {
@@ -204,7 +216,6 @@ ul {
 li {
   font-family: "Belanosima", sans-serif;
   font-weight: 500;
-  font-size: 30 px;
 }
 
 .pictures {
@@ -269,9 +280,20 @@ footer {
 .footer-btn {
   display: flex;
   flex-direction: row;
-  gap: 380px;
+  gap: 50px;
   justify-content: space-between;
   align-items: center;
+}
+@media (min-width: 768px) {
+  .footer-btn {
+    gap: 200px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .footer-btn {
+    gap: 380px;
+  }
 }
 
 .contacts:hover {
